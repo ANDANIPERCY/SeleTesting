@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    command:
+  pre_build:
+    command:
+  build:
+    command:
+      - mvn clean install
+  post_build:
+    command:
